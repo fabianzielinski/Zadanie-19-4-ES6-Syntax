@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-var sayHello = function sayHello() {
-  return alert('Hello world!');
-};
-sayHello();
+// zadanie 1
+var a = "Hello";
+var b = "World";
+console.log(a + " " + b);
