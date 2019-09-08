@@ -10,3 +10,7 @@ const multiply = (a = 1, b = 1) => console.log(a * b);
 // zadanie 3
 const average = (...args) =>
   console.log(args.reduce((total, arg) => total + arg) / args.length);
+
+  // zadanie 4
+const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
+average(...grades);
