@@ -18,10 +18,12 @@ var average = function average() {
     args[_key] = arguments[_key];
   }
 
-  return console.log(args.reduce(function (total, arg) {
+  return args.reduce(function (total, arg) {
     return total + arg;
-  }) / args.length);
+  }) / args.length;
 };
+
+console.log(average.apply(undefined, grades));
 
 // zadanie 4
 var grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
